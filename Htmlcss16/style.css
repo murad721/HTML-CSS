@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-container{
+    width: 100%;
+    position: relative;
+    /* background-color: cadetblue;
+    border: 1px solid black; */
+    z-index: -2;
+}
+
+.header-block{
+    display: flex ;
+    padding: 2%;
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+
+.header-block img{
+    width: 64px;
+}
+
+.header-block p{
+    position: relative;
+    left: 840px;
+    top: 10px;
+    padding-right: 2%;
+}
+
+.first-block{
+    width: 400px;
+    height: 399px;
+    background-color: #707360;
+    /* border: 1px solid black; */
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: 50px;
+    z-index: 1;
+}
+
+.first-block h2{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 2%;
+    padding-top: 18%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.first-block p{
+    padding: 4% 10%;
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+}
+
+.first-block a{
+    color: white;
+    font-size: 16px;
+}
+
+.second-block{
+    background-color: black;
+    width: 976px;
+    height: 638px;
+    position: relative;
+    left: 300px;
+    bottom: 260px;
+    
+}
+
+.second-block img{
+    width: 976px;
+    height: 638px;
+}
+
+.third-block{
+    width: 700px;
+    height: 393px;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 430px;
+    left: 710px;
+    z-index: 1;
+    background-color:white;
+}
+
+.third-block h3{
+    color: #707360;
+    font-size: 30px;
+    padding-top: 14%;
+    padding-left: 5%;
+}
+
+.third-block p{
+    color: #707360;
+    font-size: 20px;
+    font-style: oblique;
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+    line-height: 26px;
+}
+
+.third-block button{
+    width: 162px;
+    height: 45px;
+    padding: 5px 8px;
+    font-size: 14px;
+    border: 2px solid #c5c8b8;
+    margin-left: 5%;
+    font-weight: bold;
+    color: #707360;
+}
+
+.fourth-block{
+    width: 967px;
+    height: 770px;
+    background-color: #c4caca;
+    position: absolute;
+    bottom: 300px;
+    left: 552px;
+    z-index: -1;
+}
+
+.footer-block{
+    background-color: #333333;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+}
+
+.footer-block h3{
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 34%;
+    padding-right: 34%;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: normal;
+    
+}
+
+.footer-block p{
+    color: white;
+    padding-bottom: 5%;
+    font-weight: normal;
+}
+
+.footer-block a{
+    color: white;
+    padding-bottom: 3%;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer-block a:hover{
+    color: blue;
+    transition: 0.6s;
+}

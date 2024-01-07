@@ -1,0 +1,171 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  outline: none !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  outline: none !important;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+.header-container {
+  width: 80%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.header-container img {
+  width: 50%;
+}
+
+.header-container div {
+  padding: 75px 20px;
+}
+
+.header-container div h2 {
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.header-container div h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.header-container div p {
+  font-style: italic;
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 25px;
+}
+
+.header-container div button {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  background-color: #E3B840;
+  border: none;
+  padding: 10px 25px;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.main-container .div-1 {
+  width: 25%;
+  text-align: center;
+  padding: 35px 15px;
+  background-color: #E3B840;
+}
+
+.main-container .div-2 {
+  width: 25%;
+  text-align: center;
+  padding: 35px 15px;
+  background-color: #F1C645;
+}
+
+.main-container .div-3 {
+  width: 25%;
+  text-align: center;
+  padding: 35px 15px;
+  background-color: #F5D654;
+}
+
+.main-container .div-4 {
+  width: 25%;
+  text-align: center;
+  padding: 35px 15px;
+  background-color: #F9E79B;
+}
+
+.main-container div img {
+  width: 30%;
+  background-color: white;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.main-container div h2 {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.main-container div p {
+  font-style: italic;
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 25px;
+}
+
+.main-container div button {
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-weight: normal;
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .header-container {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+  }
+  .header-container img {
+    width: 100%;
+    margin: 1% 0;
+    border: 3px solid red;
+  }
+  .header-container .right-header {
+    width: 100%;
+    border: 3px solid red;
+  }
+  .main-container {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+  }
+  .main-container .div-1,
+  .main-container .div-2,
+  .main-container .div-3,
+  .main-container .div-4 {
+    width: 100%;
+    margin: 1% 0;
+    border: 3px solid red;
+  }
+}
+/*# sourceMappingURL=style.css.map */

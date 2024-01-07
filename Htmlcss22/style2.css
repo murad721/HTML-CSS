@@ -1,0 +1,37 @@
+div{
+    display: inline-block;
+}
+
+.area{
+    background-color: cornflowerblue;
+}
+
+#first{
+    background-color: black;
+    width: 320px;
+    height: 320px;
+    border: 10px solid gray;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#second{
+    background-color:  yellow;
+    width: 320px;
+    height: 320px;
+    border: 10px solid gray;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#third{
+    background-color: red;
+    width: 320px;
+    height: 320px;
+    border: 10px solid gray;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 20px;
+}

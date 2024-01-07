@@ -1,0 +1,110 @@
+@import "./_defaults";
+@import "./_mixins";
+@import "./_variables";
+ 
+body{
+    background-color: $bg_color;
+}
+
+.header-container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    margin-bottom: 0;
+    img{
+        width: 50%;
+    }
+    div{
+        padding: 75px 20px;
+        h2{
+            @include custom_text($s_fs, bold);
+        }
+        h1{
+            font-size: $lg_fs;
+            margin-top: 20px;
+        }
+        p{
+            @include small_p;
+        }
+        button{
+            margin-top: 20px;
+            @include custom_text(17px, bold);
+            background-color: $orange_1;
+            border: none;
+            padding: 10px 25px;
+        }
+    }
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+    .div-1{
+        @include small_div ($orange_1);
+    }
+    .div-2{
+        @include small_div ($orange_2);
+    }
+    .div-3{
+        @include small_div ($orange_3);
+    }
+    .div-4{
+        @include small_div ($orange_4);
+    }
+    div{
+        img{
+            width: 30%;
+            background-color: white;
+            padding: 3px;
+            border-radius: 50%;
+        }
+        h2{
+            margin-top: 20px;
+            font-weight: normal;
+            font-size: $md_fs;
+        }
+        p{
+            @include small_p;
+        }
+        button{
+            @include custom_text(17px, normal);
+            background-color: white;
+            border: none;
+            padding: 10px 25px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width:500px) {
+   .header-container{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        img{
+            width: 100%;
+            margin: 1% 0;
+            border: 3px solid red;
+        }
+        .right-header{
+            width: 100%;
+            border: 3px solid red;
+        }
+    }
+    .main-container{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        .div-1,
+        .div-2,
+        .div-3,
+        .div-4{
+            width: 100%;
+            margin: 1% 0;
+            border: 3px solid red;
+        }
+    }
+}
+

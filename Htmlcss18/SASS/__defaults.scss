@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none !important;
+    scroll-behavior: smooth;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row_1_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_8{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_9{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    width: 7.33%;
+}
+
+.col-2{
+    width: 15.66%;
+}
+
+.col-3{
+    width: 24%;
+}
+
+.col-4{
+    width: 32.33%;
+}
+
+.col-4_5{
+    width: 40%;
+}
+
+.col-4_6{
+    width: 32.33%;
+}
+
+.col-4_7{
+    width: 32.33%;
+}
+
+.col-4_7_7{
+    width: 32.33%;
+}
+
+.col-5{
+    width: 45%;
+}
+.col-5_5{
+    width: 35%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-6_7{
+    width: 50%;
+}
+
+.col-7{
+    width: 60%;
+}
+
+.col-7_5{
+    width: 40%;
+}
+
+.col-7_6{
+    width: 60%;
+}
+
+.col-7_7{
+    width: 60%;
+}
+
+.col-8{
+    width: 65.66%;
+}
+.col-8_5{
+    width: 60%;
+}
+
+.col-9{
+    width: 74%;
+}
+
+.col-10{
+    width: 82.33%;
+}
+
+.col-11{
+    width: 90.66%;
+}
+
+.col-12{
+    width: 99%;
+}
+
+.col-12_10{
+    width: 100%;
+}
+
+@media only screen and (max-width:1000px){
+    .col-5,
+    .col-6,
+    .col-9,
+    .col-12{
+        width: 50% !important;
+        // margin: 0 !important;
+        // padding: 0 !important;
+        // text-align: center !important;
+    }
+    .col-7{
+        width: 100% !important;
+        // margin: 0 !important;
+        // padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .row_9{
+        width: 100% !important;
+        // margin: 0 !important;
+        padding: 0 !important;
+        .ninth-top{
+                h1{
+                    font-size: 30px !important;
+                    font-weight: normal !important;
+                    margin-top: 10% !important;
+                }
+                p{
+                    margin: 5% 0 !important;
+                    font-size: 17px !important;
+                    padding: 0  75px !important;
+                }
+        }
+        .ninth-left,
+        .ninth-center,
+        .ninth-right{
+            width: 70% !important;
+            margin: 15px  auto!important;
+        }
+    }
+    .row_1_1{
+        height: 990px !important;
+    }
+
+    .row_8{
+        margin-top: 890px !important;
+        padding-left: 70px !important;
+        h1{
+            font-size: 35px !important;
+            margin-bottom: 5% !important;
+        }
+        h5{
+            font-size: 15px !important;
+            padding-right: 100px !important;
+            margin-top: 14% !important;
+        }
+        p{
+            font-size: 15px !important;
+            padding-right: 81px !important;
+        }
+    }
+
+    .col-5,
+    .col-6,
+    .col-12{
+        width: 100% !important;
+        margin: 0 !important;
+        // padding: 0 !important;
+        // text-align: center !important;
+    }
+
+    .col-5{
+        margin-bottom: 2% !important;
+    }
+
+    .col-6{
+        .first-img{
+            height: 400px !important;
+        }
+        .second-img{
+            width: 100% !important;
+            height: 300px !important;
+        }
+    }
+
+    .col-12{
+        .secon-top-p{
+            width: 90% !important;
+            margin-left: 5% !important;
+            margin-bottom: 10% !important;
+        }
+    }
+
+    .col-12_10{
+        width: 100%;
+        margin: 0 !important;
+        // padding: 0 !important;
+        p{
+            width: 80% !important;
+            margin: 15px  auto!important;
+            margin-bottom: 15% !important;
+            padding: 0 !important;
+            font-size: 15px !important;
+        }
+        a{
+            width: 80% !important;
+            text-decoration: none ;
+        }
+    }
+
+    .col-7{
+        width: 80% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .col-3,
+    .col-4,
+    .col-9{
+        width: 100%;
+        margin-bottom: 2%;
+        // margin: 0 !important;
+        // padding: 0 !important;
+    }
+    .col-7_5{
+        width: 70%;
+        // margin-left:  !important;
+
+    }
+    .col-8_5{
+        width: 80%;
+        height: 300px !important;
+        margin-top: -920px !important;
+        margin-left: 10% !important;
+    }
+    .col-5_5{
+        width: 80% !important;
+        margin: 0 !important;
+        margin-top: -160% !important;
+        margin-left: 18% !important;
+    }
+    .col-4_5{
+        width: 80% !important;
+        margin-bottom: 4%;
+    }
+    .row_5{
+        height: 1200px;
+    }
+    .col-2_5{
+        width: 100% !important;
+        // color: blac !important;
+        margin: 0 !important;
+        margin-left: 2% !important;
+        margin-top: 30% !important;
+    }
+    .col-7_6{
+        width: 100% !important;
+        margin-top: 35%;
+    }
+    .col-4_6{
+        width: 100% !important;
+        text-align: center !important;
+        // margin: 0 !important;
+        p{
+            // margin-left: 10% !important;
+            padding: 5% 11% !important;
+        }
+        button{
+            margin: 5% 0 !important;
+        }
+    }
+    .col-4_7{
+        width: 70% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-left: 15% !important;
+        margin-top: -470px !important;
+        h1{
+            font-size: 36px !important;
+            text-align: center;
+            margin-top: 5%;
+        }
+        p{
+            padding-left: 11% !important;
+            padding-right: 12% !important;
+        }
+        button{
+            margin-left: 10%;
+        }
+    }
+    .col-7_7{
+        width: 70%;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-left: 15% !important;
+        margin-top: -810px !important;
+        height: 310px !important;
+    }
+    .col-6_7{
+        width: 70%;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-left: 20% !important;
+        margin-top: -620px !important;
+        height: 255px !important;
+    }
+    .col-4_7_7{
+        width: 70%;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-left: 20% !important;
+        margin-top: 400px !important;
+        margin-bottom: 5% !important;
+        height: 420px !important;
+    }
+}

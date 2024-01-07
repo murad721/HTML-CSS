@@ -1,0 +1,10 @@
+@mixin custom_box($div_bg, $child_bg) {
+    padding: 60px 30px;
+    background-color: $div_bg;
+    img {
+        background-color: $child_bg;
+    }
+    button {
+        background-color: $child_bg;
+    }
+}

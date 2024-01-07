@@ -1,0 +1,77 @@
+@import "./_defaults";
+@import "./_variables";
+
+
+.first-block{
+    background-color: #555273;
+    border: 1px solid black;
+    .first-left{
+        margin-left: 5%;
+        margin-top: 5%;
+        img{
+            width: 100%;
+        }
+    }
+    .first-right{
+        padding: 5%;
+        border: 1px solid black;
+        h2{
+            color: white;
+            font-size: $md_fs;
+        }
+        p{
+            color: white;
+            font-size: $sm_fs;
+            padding: 5% 0;
+        }
+        button{
+            width: 194px;
+            height: 51px;
+            font-size: $sm_fs;
+            color: black;
+            background-color: white;
+            border-radius: 40px;
+            border: none;
+            padding: 12px 32px;
+        }
+    }
+}
+
+.second-block{
+    background-color: #2a2933;
+    border: 1px solid black;
+    padding: 0 5%;
+    .second-left{
+        // padding: 5%;
+        border: 1px solid black;
+        h2{
+            color: white;
+            font-size: $lg_fs;
+        }
+        p{
+            color: white;
+            font-size: $sm_fs;
+            padding: 5% 0;
+        }
+        button{
+            width: 192px;
+            height: 51px;
+            font-size: $sm_fs;
+            color: black;
+            background-color: #555273;
+            border-radius: 40px;
+            border: none;
+            padding: 12px 37px;
+        }
+        a{
+            color: white;
+            font-size: $sm_fs;
+            font-style: italic;
+        }
+        .second-right{
+            img{
+                width: 100%;
+            }    
+        }   
+    }
+}

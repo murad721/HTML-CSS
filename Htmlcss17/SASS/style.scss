@@ -1,0 +1,424 @@
+@import "./_variables";
+@import "./_defaults";
+
+.navigation{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    button{
+        width: 25%;
+        background-color: black;
+        border: none;
+        color: white;
+        font-size: 17px;
+        transition: 0.3s;
+    }
+    button:hover{
+        background-color: rgb(56, 53, 53);
+    }
+}
+
+.header-container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    .header-left-container {
+        width: 45%;
+        div{ 
+            width: 60%;
+            height: 300px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                margin-top: -20px;
+            }
+        }
+        h2 {
+            font-size: $lg_fs;
+            margin: 30px 0;
+        }
+        p {
+            font-size: $xs_fs;
+            line-height: $line_height_p;
+        }
+        button {
+            font-size: $xs_fs;
+            padding: 20px 50px;
+            background-color: white;
+            border: 2px solid lightgray;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        button:hover{
+            border-color: darkgray;
+        }
+    }
+    .header-right-container {
+        position: relative;
+        width: 52%;
+        height: 850px;
+        img {
+            width: 70%;
+            height: 800px;
+            margin-left: 10%;
+        }
+        .header-pink-div {
+            background-color: $my_pink;
+            position: absolute;
+            left: 100px;
+            bottom: 130px;
+            top: 220px;
+            right: 0;
+            z-index: -2;
+        }
+        .header-orange-div {
+            background-color: $my_orange;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            top: 280px;
+            right: 55%;
+            z-index: -1;
+        }
+    }
+}
+
+.center-container{
+    width: 85%;
+    margin: 50px auto;
+    position: relative;
+    height: 750px;
+    .center-small-img{
+        position: absolute;
+        width: 35%;
+        height: 300px;
+        bottom: 0;
+        right: 180px;
+        z-index: 5;
+    }
+    .center-big-img{
+        position: absolute;
+        width: 65%;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+    .center-pink-div{
+        position: absolute;
+        background-color: $my_pink;
+        top: 40px;
+        left: 190px;
+        bottom: 80px;
+        right: 0;
+        z-index: 2;
+    }
+    .center-info-container{
+        right: 0;
+        top: 0;
+        left: 45%;
+        position: absolute;
+        z-index: 5;
+        padding: 100px;
+        h2 {
+            font-size: $lg_fs;
+        }
+        p {
+          margin: 30px 0;
+          padding-right: 20%;
+          font-size: $xs_fs;
+          line-height: $line_height_p; 
+        }
+        button {
+            font-size: $xs_fs;
+            padding: 20px 70px;
+            border: 2px solid black;
+            margin-top: -15px;
+            background-color: transparent;
+        }
+    }
+}
+
+.footer-container{
+    width: 55%;
+    margin: 200px auto;
+    text-align: center;
+    h2 {
+        font-size: $lg_fs;
+    }
+    p {
+        font-size: $xs_fs;
+        margin: 30px 0;
+        line-height: $line_height_p;
+    }
+    button {
+        font-size: $s_fs;
+        color: black;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px solid red;
+        padding-bottom: 6px;
+    }
+}
+
+.second-block{
+    width: 90%;
+    height: 1100px;
+    margin: 50px auto;
+    position: relative;
+    // border: 1px solid black;
+    .left-second{
+        position: absolute;
+        background-color: $my_pink;
+        width: 433px;
+        height: 590px;
+        left: 0;
+        top: 4%;
+    }
+    .second-1-img{
+        position: relative;
+        width: 445px;
+        height: 635px;
+        left: 5%;
+        z-index: 2;
+    }
+    .second-pink{
+        position: relative;
+        background-color: $my_pink;
+        width: 900px;
+        height: 450px;
+        left: 34%;
+        bottom: 500px;
+        z-index: -1;
+    }
+    .second-info{
+        position: relative;
+        width: 42%;
+        bottom: 1057px;
+        left: 580px;
+        h3{
+            font-size: $md_fs;
+            font-weight: normal;
+        }
+        h2{
+            font-size: $lg_fs;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+        p{
+            font-size: $xs_fs;
+            font-weight: normal;
+            margin: 30px 0;
+            line-height: $line_height_p;
+        }
+        button {
+            font-size: $xs_fs;
+            padding: 20px 50px;
+            background-color: #dedfd5;
+            border: 2px solid black;
+            // margin-top: 20px;
+            transition: 0.3s;
+        }
+        button:hover{
+            border-color: darkgray;
+        }
+    }
+    .second-info-2{
+        position: relative;
+        bottom: 680px;
+        left: 5%;
+        width: 54%;
+        h2{
+            font-size: $lg_fs;
+            font-weight: normal;
+        }
+        p{
+            font-size: $xs_fs;
+            font-weight: normal;
+            margin: 30px 0;
+            line-height: $line_height_p;
+        }
+    }
+    .second-2-img{
+        position: relative;
+        width: 380px;
+        height: 500px;
+        bottom: 1180px;
+        left: 940px;
+    }
+}
+
+.third-block{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    // border: 1px solid black;
+    img{
+        width: 45%;
+        height: 798px;
+    }
+    .third-right{
+        width: 50%;
+        height: 798px;
+        img{
+            width: 420px;
+            height: 480px;
+        }
+        .third-pink{
+            position: relative;
+            bottom: 330px;
+            right: 0;
+            left: 150px;
+            width: 530px;
+            height: 406px;
+            background-color: $my_pink;
+            z-index: -1;
+        }
+        .third-info{
+            position: relative;
+            width: 65%;
+            margin: 10px 40px;
+            bottom: 300px;
+            h2{
+                font-size: $lg_fs;
+                font-weight: normal;
+                margin-top: 10px;
+            }
+            p{
+                font-size: $xs_fs;
+                font-weight: normal;
+                margin: 20px 0;
+            }
+        }
+    }
+}
+
+.fourth-block{
+    position: absolute;
+    margin-top: 3%;
+    width: 100%;
+    height: 585px;
+    img{
+        width: 100%;
+        height: 585px;
+    }
+    .fourth-info{
+        position: relative;
+        bottom: 400px;
+        left: 10%;
+        width: 52%;
+        // border: 1px solid black;
+        h2{
+            font-size: $lg_fs;
+            font-weight: normal;
+        }
+        p{
+            font-size: $xs_fs;
+            font-weight: normal;
+            line-height: $line_height_p;
+            margin: 20px 0;
+        }
+        button {
+            font-size: $s_fs;
+            font-weight: bold;
+            color: black;
+            background-color: transparent;
+            border: 0;
+            border-bottom: 2px solid gray;
+            padding-bottom: 6px;
+        }
+    }
+}
+
+.fifth-block{
+    width: 90%;
+    margin: 50px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 730%;
+    .fifth-block-main{ 
+        display: flex;
+        justify-content: space-between;
+        .fifth-1-img{
+            position: relative;
+            width: 25%;
+            height: 495px;
+            left: 0;
+            bottom: 50px;
+        }
+        .fifth-info{
+            position: relative;
+            width: 30%;
+            height: 495px;
+            background-color: $my_pink;
+            h2{
+                margin-top: 120px;
+                font-size: $lg_fs;
+                font-weight: normal;
+                text-align: center;
+            }
+            p{
+                font-size: $xs_fs;
+                font-weight: normal;
+                margin: 10px 0;
+                padding: 0 65px;
+                line-height: 30px
+            }
+        }
+        .fifth-2-img{
+            position: relative;
+            width: 40%;
+            height: 496px;
+            bottom: 50px;
+        }
+    }
+    .fifth-pink{
+        position: absolute;
+        background-color: $my_pink;
+        width: 860px;
+        height: 498px;
+        z-index: -1;
+        top: 0%;
+        left: 110px;
+    }
+}
+
+.last-block{
+    width: 100%;
+    height: 350px;
+    top: 815%;
+    padding: 5% 10%;
+    position: absolute;
+    background-color: $my_pink;
+    p{
+        font-size: $xs_fs;
+        font-weight: normal;
+    }
+    h2{
+        font-size: $lg_fs;
+        font-weight: normal;
+        margin: 10px 0;
+    }
+    .last-form{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        input{
+            width: 460px;
+            height: 35px;
+        }
+        button{
+            width: 100px;
+            height: 32px;
+            font-size: 16px;
+            background-color: black;
+            color: white;
+        }
+    }
+}

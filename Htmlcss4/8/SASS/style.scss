@@ -1,0 +1,129 @@
+@import "./_defaults";
+@import "./_mixin";
+@import "./_variables";
+
+.main-container{
+    width: 80%;
+    margin: 75px auto;
+    h1{
+        margin-bottom: 25px;
+        font-size: $lg_fs;
+        span{
+            color: $orange;
+        }
+    }
+    div{
+        h2{
+            width: 60%;
+            font-size: $md_fs;
+            color: white;
+            margin: 20px 0;
+        }
+        img{
+            width: 18%;
+            padding: 10px;
+        }
+        p{
+            font-size: $sm_fs;
+            line-height: 28px;
+            color:white;
+        }
+        button{
+            margin-top: 30px;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: $sm_fs;
+            font-weight: bold;
+        }
+    }
+    .div-1{
+        @include custom_box(black,$orange);
+    }
+    .div-2{
+        @include custom_box($orange,black);
+    }
+    .div-3{
+        @include custom_box($yellow,black);
+        h2{
+            color: black;
+        }
+        p{
+            color: black;
+        }
+    }
+}
+
+@media only screen and(max-width:1000px){
+    .main-container {
+        width: 70%;
+        h1 {
+            font-size: 26px;
+
+        }
+        div {
+            margin-bottom: 20px;
+            text-align: center;
+            h2{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and(max-width:600px){
+    .main-container {
+        width: 70%;
+    }
+    .img-container{
+        .col-3{
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+.black-container {
+    width: 100%;
+    background-color: black;
+    padding: 40px 15%;
+    div{
+        color: white;
+        text-align: center;
+        padding: 40px 30px;
+        img{
+            width: 25%;
+            background-color: black;
+        }
+        h2{
+            font-size: 28px;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}
+
+.img-container {
+    .col-3{
+        width: 25%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .black-container {
+        div {
+            width: 100%;
+        }
+    }
+    .img-container {
+        .col-3{
+            width: 50%;
+            margin: 0;
+        }
+    }
+}

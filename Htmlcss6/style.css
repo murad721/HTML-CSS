@@ -1,0 +1,149 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 30%;
+}
+
+.col-2 {
+  width: 40%;
+}
+
+.col-3 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-5 {
+  width: 70%;
+}
+
+.col-6 {
+  width: 90%;
+}
+
+.col-7 {
+  width: 100%;
+}
+
+.main-container {
+  background-color: #f2f2f2;
+}
+
+.main-container .header-block {
+  position: relative;
+  z-index: 2;
+  padding: 3%;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px -8px 14px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px -8px 14px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  top: 70px;
+  left: 150px;
+}
+
+.main-container .header-block h1 {
+  color: #5EB8CC;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.main-container .header-block p {
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+.second-block {
+  background-color: #4ABED7;
+}
+
+.second-block img {
+  position: relative;
+  z-index: 1;
+  height: 550px;
+  bottom: 130px;
+  left: 25%;
+  border-radius: 50px;
+}
+
+.footer-block {
+  background-color: white;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  padding: 2%;
+  bottom: 190px;
+  left: 25%;
+}
+
+.footer-block .footer-left h5 {
+  margin-top: 5%;
+  color: #8C9496;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+.footer-block .footer-right input {
+  width: 70%;
+  height: 35px;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.footer-block .footer-right button {
+  background-color: #FF6B29;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2%;
+  width: 70%;
+  height: 40px;
+  border: none;
+}
+
+@media only screen and (max-width: 800) {
+  .col-2 {
+    width: 80%;
+  }
+  .col-5 {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600) {
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container{
+    position: absolute;
+    width: 100%;
+}
+
+.main-container img{
+    position: relative;
+    width: 100%;
+}
+
+.main-container h1{
+    position: absolute;
+    z-index: 2;
+    top: 32%;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.main-container hr{
+    position: absolute;
+    z-index: 2;
+    top: 42%;
+    left: 45%;
+    border: 2px solid white;
+    width: 10%;
+    text-align: center;
+}
+
+.all-one{
+    position: absolute;
+    /* background-color: blueviolet; */
+    top: 55%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 75% auto;
+    text-align: center;
+}
+
+.all-one img{
+    width: 80px;
+    height: 80px;
+}
+
+.all-one P{
+    padding-left: 11%;
+    padding-right: 11%;
+    font-size: 14px;
+}
+
+.all-one h3{
+    padding: 5%;
+}
+
+.one-1{
+    width: 20%;
+}
+
+.one-1 h3{
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.one-1 p{
+    color: white;
+    text-align: center;
+}
+
+.one-2{
+    width: 20%;
+}
+
+.one-2 h3{
+    color: white;
+    text-align: center;
+}
+
+.one-2 p{
+    color: white;
+    text-align: center;
+}
+
+.one-3{
+    width: 20%;
+}
+
+.one-3 h3{
+    color: white;
+    text-align: center;
+}
+
+.one-3 p{
+    color: white;
+    text-align: center;
+}
+
+.one-4{
+    width: 20%;
+}
+
+.one-4 h3{
+    color: white;
+    text-align: center;
+}
+
+.one-4 p{
+    color: white;
+    text-align: center;
+}

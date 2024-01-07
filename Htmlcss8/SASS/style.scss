@@ -1,0 +1,125 @@
+@import "./_defaults";
+
+.top-block{
+    background-color: black;
+    button{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 17px;
+        padding: 1% 0;
+        transition: 0.2s;
+    }
+    button:hover{
+        background-color: brown;
+    }
+}
+
+.first-block{
+    // border: 1px solid black;
+    img{
+        height: 700px;
+    }
+    .first-info{
+        // border: 1px solid black;
+        background-color: white;
+        position: relative;
+        height: 380px;
+        margin-top: -530px;
+        margin-left: 65%;
+        padding: 1% 0;
+        h2{
+            margin-top: 10%;
+            font-size: 30px;
+            font-weight: normal;
+            margin-left: 5%;
+        }
+        p{
+            margin: 6% 0;
+            font-size: 17px;
+            font-weight: normal;
+            padding-left: 5%;
+            padding-right: 10%;
+        }
+        .link-p{
+            color: #808080;
+        }
+        a{
+            color: #808080;
+            // text-decoration: none;
+        }
+
+        button{
+            background-color: #29b7dd;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 4px;
+            border: none;
+            border-radius: 40px;
+            width: 207px;
+            height: 50px;
+            margin-left: 5%;
+        }
+    }
+}
+
+.second-block{
+    // border: 1px solid black;
+    .second-top{
+        // border: 1px solid black;
+        margin-top: 4%;
+        h2{
+            color: black;
+            text-align: center;
+            font-size: 36px;
+            font-weight: normal;
+        }
+        p{
+            color: black;
+            text-align: center;
+            font-size: 18px;
+            padding: 1% 360px;
+        }
+    }
+    .second-image-block{
+        position: relative;
+        // border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 5% auto;
+        img{
+            height: 310px;
+            margin-bottom: 25px;
+        }
+    }
+    .second-center{
+        background-color: #29b7dd;
+        // border: 1px solid black;
+        height: 660px;
+        margin-top: -900px;
+    }
+    .second-footer{
+        // border: 1px solid black;
+        text-align: center;
+        p{
+            color: #808080;
+            font-size: 18px;
+        }
+        button{
+           background-color: #29b7dd;
+           color: white;
+           font-size: 14px;
+           border: none;
+           border-radius: 40px;
+           margin: 2% 0;
+           width: 239px;
+           height: 62px;
+           transition: 0.2s;
+        }
+        button:hover{
+            background-color: black;
+        }
+    }
+}

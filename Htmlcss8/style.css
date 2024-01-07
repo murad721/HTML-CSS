@@ -1,0 +1,272 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 30%;
+}
+
+.col-5 {
+  width: 35%;
+}
+
+.col-6 {
+  width: 40%;
+}
+
+.col-7 {
+  width: 45%;
+}
+
+.col-8 {
+  width: 50%;
+}
+
+.col-9 {
+  width: 60%;
+}
+
+.col-10 {
+  width: 70%;
+}
+
+.col-11 {
+  width: 80%;
+}
+
+.col-12 {
+  width: 90%;
+}
+
+.col-13 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .first-block .col-4 {
+    width: 60% !important;
+    margin: 0 !important;
+    margin-top: -570px !important;
+    margin-left: 30% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100% !important;
+  }
+  .top-block .col-3 {
+    width: 25% !important;
+  }
+  .first-block .col-4 {
+    width: 80% !important;
+    height: 440px !important;
+    margin: 0 auto !important;
+    margin-top: -600px !important;
+  }
+  .first-block .col-4 h2 {
+    font-size: 25px !important;
+  }
+  .first-block .col-4 p {
+    padding-right: 26% !important;
+    line-height: 30px;
+  }
+  .second-top {
+    width: 80% !important;
+    margin: 10px auto !important;
+    padding: 0 !important;
+  }
+  .second-top h2 {
+    font-size: 26px !important;
+  }
+  .second-top p {
+    margin: 0 !important;
+    padding: 7% 15% !important;
+    font-size: 16px !important;
+  }
+  .second-image-block {
+    width: 60% !important;
+    margin: 0 !important;
+    margin-left: 29% !important;
+    padding: 0 !important;
+  }
+  .second-center {
+    width: 60% !important;
+    height: 2750px !important;
+    margin: 0 !important;
+    margin-top: -2900px !important;
+    margin-left: 16% !important;
+  }
+  .second-footer {
+    margin-top: 6%;
+    margin-bottom: 5% !important;
+  }
+  .second-footer p {
+    margin: 3% 0 !important;
+  }
+  .second-footer button {
+    margin-left: 5% !important;
+  }
+}
+
+.top-block {
+  background-color: black;
+}
+
+.top-block button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 17px;
+  padding: 1% 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.top-block button:hover {
+  background-color: brown;
+}
+
+.first-block img {
+  height: 700px;
+}
+
+.first-block .first-info {
+  background-color: white;
+  position: relative;
+  height: 380px;
+  margin-top: -530px;
+  margin-left: 65%;
+  padding: 1% 0;
+}
+
+.first-block .first-info h2 {
+  margin-top: 10%;
+  font-size: 30px;
+  font-weight: normal;
+  margin-left: 5%;
+}
+
+.first-block .first-info p {
+  margin: 6% 0;
+  font-size: 17px;
+  font-weight: normal;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.first-block .first-info .link-p {
+  color: #808080;
+}
+
+.first-block .first-info a {
+  color: #808080;
+}
+
+.first-block .first-info button {
+  background-color: #29b7dd;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 4px;
+  border: none;
+  border-radius: 40px;
+  width: 207px;
+  height: 50px;
+  margin-left: 5%;
+}
+
+.second-block .second-top {
+  margin-top: 4%;
+}
+
+.second-block .second-top h2 {
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.second-block .second-top p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 1% 360px;
+}
+
+.second-block .second-image-block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 5% auto;
+}
+
+.second-block .second-image-block img {
+  height: 310px;
+  margin-bottom: 25px;
+}
+
+.second-block .second-center {
+  background-color: #29b7dd;
+  height: 660px;
+  margin-top: -900px;
+}
+
+.second-block .second-footer {
+  text-align: center;
+}
+
+.second-block .second-footer p {
+  color: #808080;
+  font-size: 18px;
+}
+
+.second-block .second-footer button {
+  background-color: #29b7dd;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 40px;
+  margin: 2% 0;
+  width: 239px;
+  height: 62px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.second-block .second-footer button:hover {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

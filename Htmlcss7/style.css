@@ -1,0 +1,141 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 15%;
+}
+
+.col-2 {
+  width: 25%;
+}
+
+.col-3 {
+  width: 35%;
+}
+
+.col-4 {
+  width: 45%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 75%;
+}
+
+.col-8 {
+  width: 85%;
+}
+
+.col-9 {
+  width: 95%;
+}
+
+.col-10 {
+  width: 100%;
+}
+
+.first-block {
+  background-color: #555273;
+  border: 1px solid black;
+}
+
+.first-block .first-left {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.first-block .first-left img {
+  width: 100%;
+}
+
+.first-block .first-right {
+  padding: 5%;
+  border: 1px solid black;
+}
+
+.first-block .first-right h2 {
+  color: white;
+  font-size: 24px;
+}
+
+.first-block .first-right p {
+  color: white;
+  font-size: 16px;
+  padding: 5% 0;
+}
+
+.first-block .first-right button {
+  width: 194px;
+  height: 51px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  border: none;
+  padding: 12px 32px;
+}
+
+.second-block {
+  background-color: #2a2933;
+  border: 1px solid black;
+  padding: 0 5%;
+}
+
+.second-block .second-left {
+  border: 1px solid black;
+}
+
+.second-block .second-left h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.second-block .second-left p {
+  color: white;
+  font-size: 16px;
+  padding: 5% 0;
+}
+
+.second-block .second-left button {
+  width: 192px;
+  height: 51px;
+  font-size: 16px;
+  color: black;
+  background-color: #555273;
+  border-radius: 40px;
+  border: none;
+  padding: 12px 37px;
+}
+
+.second-block .second-left a {
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.second-block .second-left .second-right img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

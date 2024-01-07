@@ -1,0 +1,80 @@
+body{
+    background-image: url('./11.jpg')
+}
+
+ul{
+    text-align: left;
+    color: yellow;
+}
+
+li > a {
+    background-color: black;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    color: white;
+}
+
+.paragraph-one{
+    background-color: black;
+    border-radius: 80px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4mm;
+    text-align: center;
+    
+
+}
+
+.paragraph-one span a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.paragraph-two {
+    background-color: black;
+    border-radius: 80px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4mm;
+    text-align: center;
+}
+
+#section{ 
+    width: auto;
+    height: 80px;
+    background-color: black;
+    background-position: center;
+    border-radius: 80px;
+}
+
+#section h1{
+    color: white;
+    font-size: 7mm;
+    text-align: center; 
+}
+
+#one a{
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+}
+
+#two a{
+    position: absolute;
+    bottom: 50px;
+    right: 45%;
+}
+
+.bottom p{
+    position: absolute;
+    bottom: 85px;
+    right: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifl;
+    font-size: 10mm;
+    color: yellow;
+}
+
+.bottom a{
+    color: orange;
+}

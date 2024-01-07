@@ -1,0 +1,23 @@
+@import "./_variables";
+@import "./_defaults";
+
+@mixin custom_text ($fs, $fw){
+    letter-spacing: 2px;
+    font-size: $fs;
+    font-weight: $fw;
+    color: black;
+}
+
+@mixin small_p {
+    font-style: italic;
+    font-size: $xs_fs;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+@mixin small_div($bg) {
+    width: 25%;
+    text-align: center;
+    padding: 35px 15px;
+    background-color: $bg;
+}

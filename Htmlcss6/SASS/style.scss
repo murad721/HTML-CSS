@@ -1,0 +1,94 @@
+@import "./_defaults";
+@import "./_variables";
+@import "./_mixinis";
+
+.main-container{
+    background-color: $first_color;
+    .header-block{
+        position: relative;
+        z-index: 2;
+        padding: 3%;
+        border-radius: $radius;
+        box-shadow: $shadow;
+        background-color: white;
+        top: 70px;
+        left: 150px;
+        h1{
+            color: $text_color;
+            font-size: $lg_fs;
+            font-weight: $fw;
+        }
+        p{
+            font-size: $sm_fs;
+            margin-bottom: 5%;
+        }
+    }
+}
+
+.second-block{
+    background-color: $pink;
+    img{
+        // width: 80%;
+        position: relative;
+        z-index:1;
+        height: 550px;
+        bottom: 130px;
+        left: 25%;
+        border-radius: $radius;
+    }
+}
+
+.footer-block{
+    background-color: white;
+    border-radius: $radius;
+    position: relative;
+    z-index: 1;
+    padding: 2%;
+    bottom: 190px;
+    left: 25%;
+    .footer-left{
+
+        h5{
+            margin-top: 5%;
+            color: #8C9496;
+            font-size: $sm_fs;
+            font-weight: normal;
+            line-height: 40px;
+        }
+    }
+    .footer-right{
+        input{
+            width: 70%;
+            height: 35px;
+            background-color: $first_color;
+            border: none;
+        }
+        button{
+            @include custom_button;
+        }
+    }
+}
+
+@media only screen and(max-width:800) {
+    .col-2{
+        width: 80%;
+    }
+    
+    .col-5{
+        width: 80%;
+    }
+}
+
+@media only screen and(max-width:600) {
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+}
